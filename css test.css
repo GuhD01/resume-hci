@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    background-color: rgb(253, 254, 255);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.full {
+   
+    background-color: rgb(245, 239, 231);
+   
+    display: grid;
+    grid-template-columns: fr
+}
+.center {
+   
+    background-color: lightblue;
+    padding: 20px;
+ 
+}
+.bottom {
+    position: initial;
+    background-color: rgb(162, 202, 206);
+    padding: 20px;
+ 
+}
+.image, .Contact, .Skills, .strengths, .Experience, .table
+ {
+    margin-bottom: 30px;
+}
+.h2 {
+    background-color: rgb(4, 96, 150);
+}
+.table {
+    border: 0;
+    width:100%;
+}
+table td, table th {
+    border: 1px solid black;
+    width: 30%
+}
